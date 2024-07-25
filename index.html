@@ -1,101 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>iCoder - Heaven for Programmers</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image">
+    <img src="Mega Shop (1).png" height="200" width="200">
+    <img src="online shop.png" id="img2" height="200" width="200">
+    <img src="Mega Shop (2).png" id="img3" height="200" width="200">
+    </div>
+    </body>
+    </body>
 
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">iCoder</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Topics
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Technology</a></li>
-                  <li><a class="dropdown-item" href="#">Web Development</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Support</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-      <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8&w=1000&q=80" height="500" width="1400" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Welcome to iCoder</h2>
-            <p>Technology News,Development and Trends</p>
-            <button class="btn btn-danger">Technology</button>
-            <button class="btn btn-primary">Web Development</button>
-            <button class="btn btn-success">Tech Fun</button>
-          </div>
-            
-          </div>
-          <div class="carousel-item">
-            
-            <img src="https://media.istockphoto.com/id/1055083194/photo/close-up-programmer-man-hand-typing-on-keyboard-laptop-for-register-data-system-or-access.jpg?b=1&s=170667a&w=0&k=20&c=KGiPRE2Qy6BQEr9wFR2lV1tkQQi9iKxvU93MdzHNyU4=" height="500" width="1400" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h2>The Best Coding Blog</h2>
-              <p>Technology News,Development and Trends</p>
-              <button class="btn btn-danger">Technology</button>
-              <button class="btn btn-primary">Web Development</button>
-              <button class="btn btn-success">Tech Fun</button>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://images.unsplash.com/photo-1617471346061-5d329ab9c574?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBwcm9ncmFtbWluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" height="500" width="1400" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h2>The Award Winning Blog</h2>
-              <p>Technology News,Development and Trends</p>
-              <button class="btn btn-danger">Technology</button>
-              <button class="btn btn-primary">Web Development</button>
-              <button class="btn btn-success">Tech Fun</button>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
